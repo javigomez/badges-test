@@ -1,1 +1,6 @@
-{"schemaVersion":1,"label":"frontend_canary_deployments","message":"N/A","color":"blue"}
+{
+  "schemaVersion": 1,
+  "label": "frontend_canary_deployments",
+  "message": "N/A",
+  "color": "blue"
+}

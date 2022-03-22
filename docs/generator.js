@@ -43,9 +43,9 @@ for (const key in badges) {
     "color": color(badges[key]) 
   }
   const filename = `videoask-api_${key}.json`
-  fs.writeFile(filename, JSON.stringify(content), function (err) {
+  fs.writeFile(filename, JSON.stringify(content, null, 2), function (err) {
     if (err) throw err;
-    console.log(`![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%javigomez.github.io%2Fbadges-test%2F${filename})`);
+    console.log(`![Custom badge](https://img.shields.io/endpoint?url=javigomez.github.io/badges-test/${filename})`);
   });
 }
 

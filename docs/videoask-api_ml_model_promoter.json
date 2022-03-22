@@ -1,1 +1,6 @@
-{"schemaVersion":1,"label":"ml_model_promoter","message":"N/A","color":"blue"}
+{
+  "schemaVersion": 1,
+  "label": "ml_model_promoter",
+  "message": "N/A",
+  "color": "blue"
+}

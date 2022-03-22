@@ -1,1 +1,6 @@
-{"schemaVersion":1,"label":"average_adoption","message":0.875,"color":"red"}
+{
+  "schemaVersion": 1,
+  "label": "average_adoption",
+  "message": 0.875,
+  "color": "red"
+}
