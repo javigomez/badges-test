@@ -39,7 +39,7 @@ for (const key in badges) {
   content = {
     "schemaVersion": 1,
     "label": key,
-    "message": badges[key] == null ? "N/A" : badges[key],
+    "message": badges[key] == null ? "N/A" : `${badges[key]}`,
     "color": color(badges[key]) 
   }
   const filename = `videoask-api_${key}.json`

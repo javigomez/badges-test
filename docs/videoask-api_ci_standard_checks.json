@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "ci_standard_checks",
-  "message": 1,
+  "message": "1",
   "color": "green"
 }
